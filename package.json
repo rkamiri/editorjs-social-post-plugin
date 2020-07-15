@@ -1,0 +1,42 @@
+{
+  "name": "editorjs-social-post-plugin",
+  "version": "1.0.0",
+  "description": "A tool for embedding posts from different social media platforms in Editor.js.",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "editorjs-social-post-plugin"
+  },
+  "keywords": [
+    "editorjs",
+    "editor.js",
+    "editorjs-tools",
+    "social",
+    "social media",
+    "twitter",
+    "instagram",
+    "facebook"
+  ],
+  "author": "ranemihir",
+  "license": "ISC",
+  "dependencies": {
+    "fetch-jsonp": "^1.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.10.4",
+    "@babel/runtime": "^7.2.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "style-loader": "^1.2.1",
+    "svg-inline-loader": "^0.8.2",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12"
+  }
+}
