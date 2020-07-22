@@ -37,7 +37,7 @@ npm i editorjs-social-post-plugin
 Include module at your application
 
 ```javascript
-import Gist from 'editorjs-social-post-plugin';
+import SocialPost from 'editorjs-social-post-plugin';
 ```
 
 ### Other methods
