@@ -11,7 +11,7 @@ export default function createInputForm(pluginObj) {
          */
         const urlInput = document.createElement('input')
         urlInput.id = 'social-post-url-input'
-        urlInput.placeholder = 'Post URL'
+        urlInput.placeholder = 'URL du post'
         urlInput.classList.add('cdx-input')
         urlInput.style = 'margin: 12px 0'
         urlInput.value = pluginObj.data && pluginObj.data.url ? pluginObj.data.url : ''
@@ -21,7 +21,7 @@ export default function createInputForm(pluginObj) {
          */
         const captionInput = document.createElement('input')
         captionInput.id = 'social-post-caption-input'
-        captionInput.placeholder = 'Caption'
+        captionInput.placeholder = 'Légende'
         captionInput.classList.add('cdx-input')
         captionInput.style = 'margin: 12px 0'
         captionInput.value = pluginObj.data && pluginObj.data.caption ? pluginObj.data.caption : ''
@@ -30,7 +30,7 @@ export default function createInputForm(pluginObj) {
          * Creates a button which adds provides gives a preview of the social media post.
          */
         const previewBtn = document.createElement('button')
-        previewBtn.innerHTML = 'Preview'
+        previewBtn.innerHTML = 'Aperçu'
         previewBtn.classList.add('cdx-button')
         previewBtn.style = 'margin: 12px 0 20px 0;'
 
